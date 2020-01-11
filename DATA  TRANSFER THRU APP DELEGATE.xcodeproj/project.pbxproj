@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451E4B4C5647D2DF79818438 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46DCD16AA950A0B4B3731CA /* Pods_DATA__TRANSFER_THRU_APP_DELEGATEUITests.framework */; };
+		62466383BACE8F8D293CDB48 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32464C14FCFBC5F1FA025A51 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATETests.framework */; };
+		631519771E96ED259600EDB6 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95680E54D1527622349067D6 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATE.framework */; };
 		833684EF238CE07E00A72964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833684EE238CE07E00A72964 /* AppDelegate.swift */; };
 		833684F1238CE07E00A72964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833684F0238CE07E00A72964 /* ViewController.swift */; };
 		833684F4238CE07E00A72964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833684F2238CE07E00A72964 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		833684F9238CE08000A72964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833684F7238CE08000A72964 /* LaunchScreen.storyboard */; };
 		83368504238CE08000A72964 /* DATA__TRANSFER_THRU_APP_DELEGATETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83368503238CE08000A72964 /* DATA__TRANSFER_THRU_APP_DELEGATETests.swift */; };
 		8336850F238CE08000A72964 /* DATA__TRANSFER_THRU_APP_DELEGATEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336850E238CE08000A72964 /* DATA__TRANSFER_THRU_APP_DELEGATEUITests.swift */; };
+		8336851D238CE09F00A72964 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336851C238CE09F00A72964 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32464C14FCFBC5F1FA025A51 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DATA__TRANSFER_THRU_APP_DELEGATETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5487E38837F9223E6892C453 /* Pods-DATA  TRANSFER THRU APP DELEGATETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATA  TRANSFER THRU APP DELEGATETests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DATA  TRANSFER THRU APP DELEGATETests/Pods-DATA  TRANSFER THRU APP DELEGATETests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F4418451854A6C1261A2B82 /* Pods-DATA  TRANSFER THRU APP DELEGATE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATA  TRANSFER THRU APP DELEGATE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DATA  TRANSFER THRU APP DELEGATE/Pods-DATA  TRANSFER THRU APP DELEGATE.debug.xcconfig"; sourceTree = "<group>"; };
+		6259F39DA274190A63C4E8F0 /* Pods-DATA  TRANSFER THRU APP DELEGATETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATA  TRANSFER THRU APP DELEGATETests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DATA  TRANSFER THRU APP DELEGATETests/Pods-DATA  TRANSFER THRU APP DELEGATETests.release.xcconfig"; sourceTree = "<group>"; };
 		833684EB238CE07E00A72964 /* DATA  TRANSFER THRU APP DELEGATE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DATA  TRANSFER THRU APP DELEGATE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833684EE238CE07E00A72964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833684F0238CE07E00A72964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		8336850A238CE08000A72964 /* DATA  TRANSFER THRU APP DELEGATEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DATA  TRANSFER THRU APP DELEGATEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8336850E238CE08000A72964 /* DATA__TRANSFER_THRU_APP_DELEGATEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATA__TRANSFER_THRU_APP_DELEGATEUITests.swift; sourceTree = "<group>"; };
 		83368510238CE08000A72964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8336851C238CE09F00A72964 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8CFAD3909F0C30B8DC21BE54 /* Pods-DATA  TRANSFER THRU APP DELEGATE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATA  TRANSFER THRU APP DELEGATE.release.xcconfig"; path = "Pods/Target Support Files/Pods-DATA  TRANSFER THRU APP DELEGATE/Pods-DATA  TRANSFER THRU APP DELEGATE.release.xcconfig"; sourceTree = "<group>"; };
+		95680E54D1527622349067D6 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DATA__TRANSFER_THRU_APP_DELEGATE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B972E3C5A35BB873CF61086 /* Pods-DATA  TRANSFER THRU APP DELEGATEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATA  TRANSFER THRU APP DELEGATEUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DATA  TRANSFER THRU APP DELEGATEUITests/Pods-DATA  TRANSFER THRU APP DELEGATEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A46DCD16AA950A0B4B3731CA /* Pods_DATA__TRANSFER_THRU_APP_DELEGATEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DATA__TRANSFER_THRU_APP_DELEGATEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE08710E1D39C45C26E823B /* Pods-DATA  TRANSFER THRU APP DELEGATEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATA  TRANSFER THRU APP DELEGATEUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DATA  TRANSFER THRU APP DELEGATEUITests/Pods-DATA  TRANSFER THRU APP DELEGATEUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631519771E96ED259600EDB6 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62466383BACE8F8D293CDB48 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451E4B4C5647D2DF79818438 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATEUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A29FC40145C0EBE1B33AEA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95680E54D1527622349067D6 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATE.framework */,
+				32464C14FCFBC5F1FA025A51 /* Pods_DATA__TRANSFER_THRU_APP_DELEGATETests.framework */,
+				A46DCD16AA950A0B4B3731CA /* Pods_DATA__TRANSFER_THRU_APP_DELEGATEUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4571A9C8A0CDEE4BC948407A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F4418451854A6C1261A2B82 /* Pods-DATA  TRANSFER THRU APP DELEGATE.debug.xcconfig */,
+				8CFAD3909F0C30B8DC21BE54 /* Pods-DATA  TRANSFER THRU APP DELEGATE.release.xcconfig */,
+				5487E38837F9223E6892C453 /* Pods-DATA  TRANSFER THRU APP DELEGATETests.debug.xcconfig */,
+				6259F39DA274190A63C4E8F0 /* Pods-DATA  TRANSFER THRU APP DELEGATETests.release.xcconfig */,
+				CDE08710E1D39C45C26E823B /* Pods-DATA  TRANSFER THRU APP DELEGATEUITests.debug.xcconfig */,
+				9B972E3C5A35BB873CF61086 /* Pods-DATA  TRANSFER THRU APP DELEGATEUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		833684E2238CE07E00A72964 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				83368502238CE08000A72964 /* DATA  TRANSFER THRU APP DELEGATETests */,
 				8336850D238CE08000A72964 /* DATA  TRANSFER THRU APP DELEGATEUITests */,
 				833684EC238CE07E00A72964 /* Products */,
+				4571A9C8A0CDEE4BC948407A /* Pods */,
+				2A29FC40145C0EBE1B33AEA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,7 @@
 			children = (
 				833684EE238CE07E00A72964 /* AppDelegate.swift */,
 				833684F0238CE07E00A72964 /* ViewController.swift */,
+				8336851C238CE09F00A72964 /* SecondViewController.swift */,
 				833684F2238CE07E00A72964 /* Main.storyboard */,
 				833684F5238CE08000A72964 /* Assets.xcassets */,
 				833684F7238CE08000A72964 /* LaunchScreen.storyboard */,
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83368513238CE08000A72964 /* Build configuration list for PBXNativeTarget "DATA  TRANSFER THRU APP DELEGATE" */;
 			buildPhases = (
+				E261B99A3817C7AE55F5B811 /* [CP] Check Pods Manifest.lock */,
 				833684E7238CE07E00A72964 /* Sources */,
 				833684E8238CE07E00A72964 /* Frameworks */,
 				833684E9238CE07E00A72964 /* Resources */,
+				9CB7F1FE8C72EA99627087EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83368516238CE08000A72964 /* Build configuration list for PBXNativeTarget "DATA  TRANSFER THRU APP DELEGATETests" */;
 			buildPhases = (
+				8B9E040202FACC2FD9AB5A40 /* [CP] Check Pods Manifest.lock */,
 				833684FB238CE08000A72964 /* Sources */,
 				833684FC238CE08000A72964 /* Frameworks */,
 				833684FD238CE08000A72964 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83368519238CE08000A72964 /* Build configuration list for PBXNativeTarget "DATA  TRANSFER THRU APP DELEGATEUITests" */;
 			buildPhases = (
+				F9953EEE2861AE509B7DBE16 /* [CP] Check Pods Manifest.lock */,
 				83368506238CE08000A72964 /* Sources */,
 				83368507238CE08000A72964 /* Frameworks */,
 				83368508238CE08000A72964 /* Resources */,
@@ -251,11 +298,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B9E040202FACC2FD9AB5A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DATA  TRANSFER THRU APP DELEGATETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB7F1FE8C72EA99627087EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DATA  TRANSFER THRU APP DELEGATE/Pods-DATA  TRANSFER THRU APP DELEGATE-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DATA  TRANSFER THRU APP DELEGATE/Pods-DATA  TRANSFER THRU APP DELEGATE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E261B99A3817C7AE55F5B811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DATA  TRANSFER THRU APP DELEGATE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9953EEE2861AE509B7DBE16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DATA  TRANSFER THRU APP DELEGATEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		833684E7238CE07E00A72964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8336851D238CE09F00A72964 /* SecondViewController.swift in Sources */,
 				833684F1238CE07E00A72964 /* ViewController.swift in Sources */,
 				833684EF238CE07E00A72964 /* AppDelegate.swift in Sources */,
 			);
@@ -430,6 +569,7 @@
 		};
 		83368514238CE08000A72964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4418451854A6C1261A2B82 /* Pods-DATA  TRANSFER THRU APP DELEGATE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +587,7 @@
 		};
 		83368515238CE08000A72964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFAD3909F0C30B8DC21BE54 /* Pods-DATA  TRANSFER THRU APP DELEGATE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +605,7 @@
 		};
 		83368517238CE08000A72964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5487E38837F9223E6892C453 /* Pods-DATA  TRANSFER THRU APP DELEGATETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +626,7 @@
 		};
 		83368518238CE08000A72964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6259F39DA274190A63C4E8F0 /* Pods-DATA  TRANSFER THRU APP DELEGATETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +647,7 @@
 		};
 		8336851A238CE08000A72964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE08710E1D39C45C26E823B /* Pods-DATA  TRANSFER THRU APP DELEGATEUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +667,7 @@
 		};
 		8336851B238CE08000A72964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B972E3C5A35BB873CF61086 /* Pods-DATA  TRANSFER THRU APP DELEGATEUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
